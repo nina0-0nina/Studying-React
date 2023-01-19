@@ -3,17 +3,18 @@ import './App.css'
 import React from 'react'
 
 // import de componente
-import Primeiro from './components/basics/Primeiro'
-import ComParamentro from './components/basics/ComParamentro'
-import ComFilhos from './components/basics/ComFilhos'
-import Card from './components/layout/Card'
-import Repeticao from './components/basics/Repeticao'
-import Condicional from './components/basics/Condicional'
-import CondicionalComIf from './components/basics/CondicionalComIf'
-import Pai from './components/comunicacao/direta/Pai'
-import Super from './components/comunicacao/indireta/Super'
-import Input from './components/form/Input'
-import Contador from './components/contador/Contador'
+import Primeiro from './components/basics/Primeiro';
+import ComParamentro from './components/basics/ComParamentro';
+import ComFilhos from './components/basics/ComFilhos';
+import Card from './components/layout/Card';
+import Repeticao from './components/basics/Repeticao';
+import Condicional from './components/basics/Condicional';
+import CondicionalComIf from './components/basics/CondicionalComIf';
+import Pai from './components/comunicacao/direta/Pai';
+import Super from './components/comunicacao/indireta/Super';
+import Input from './components/form/Input';
+import Contador from './components/contador/Contador';
+import Mega from './components/mega/Mega'
 
 
 export default (props) => (
@@ -72,6 +73,10 @@ export default (props) => (
 
                 <Card titulo='#10-Contador' color='#17A398'>
                     <Contador passo={10} val={100}></Contador>
+                </Card>
+
+                <Card titulo='#11-Mega' color='#17A398'>
+                    <Mega qtNum={8}></Mega>
                 </Card>
             </div>
       
