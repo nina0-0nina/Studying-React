@@ -71,7 +71,7 @@ export default (props) => (
                 </Card>
 
                 <Card titulo='#10-Contador' color='#17A398'>
-                    <Contador></Contador>
+                    <Contador passo={10} val={100}></Contador>
                 </Card>
             </div>
       
